@@ -4291,7 +4291,7 @@ const core = __webpack_require__(694);
 const github = __webpack_require__(329);
 
 function stringifyDate(date) {
-  return date.toISOString().substring(0, 10);
+  return date.toISOString().substring(0, 19);
 }
 
 function getTagName(appName, environment) {
